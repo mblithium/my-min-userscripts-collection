@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 
-function teste() {
+function minBrowserColorPickerCloseModal() {
     if (document.querySelector("#minBrowserColorPickerModal")) { 
         document.querySelector("#minBrowserColorPickerModal").style.display = `none`
     }; };
@@ -29,7 +29,7 @@ function() {
     minBrowserColorPickerCloseModalBtn.type = "button";
     minBrowserColorPickerCloseModalBtn.value = "X";
     minBrowserColorPickerCloseModalBtn.style = `background-color: #eb4d4b; width: auto; border: 1px solid white; border-radius: 5px; color: white;`
-    minBrowserColorPickerCloseModalBtn.addEventListener("click", teste);
+    minBrowserColorPickerCloseModalBtn.addEventListener("click", minBrowserColorPickerCloseModal);
     minBrowserColorPickerModal.prepend(minBrowserColorPickerCloseModalBtn);
 
 
