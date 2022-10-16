@@ -6,10 +6,19 @@ This is my collection of userscripts for Min Browser, feel free to contribute to
 
 ## Reload Page
 
-![teste!](./screenshots/ReloadPage-01.gif)
+![Reload Page!](./screenshots/ReloadPage-01.gif)
 
 Add a simple "reload page" button on context-menu (right-click on mouse).
+
 [-> Download here <-](./userscripts/ReloadPage.js)
+
+## Color Picker
+
+![Color Picker!](screenshots/ColorPicker-01.gif)
+
+Native color picker tools with input type="color" element.
+
+[-> Download here <-](./userscripts/ColorPicker.js)
 
 
 # How to use
